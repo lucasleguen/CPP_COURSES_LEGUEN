@@ -1,12 +1,12 @@
 #include <string>
 #include <iostream>
 
-class course{
+class Course{
      private:
-        std::string _nomJoueur;
+        std::string _numeroJoueur;
         int _score;
-public:
-    void afficher();
-    void avancer();
-    std::string getNomJoueur();
+    public:
+        void afficher();
+        void avancer();
+        std::string getNumeroJoueur();
 };

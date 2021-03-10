@@ -1,8 +1,10 @@
 #include <string>
 #include <iostream>
-#include <course.h>
+#include "course.cpp"
 
 int main(){
-    course= course1("Joueur1");
-    course= course1("Joueur2");
+    Course course1= ("Joueur1");
+    Course course2= ("Joueur2");
+    Course course3= ("Joueur3");
+    Course course4= ("Joueur4");
 }
